@@ -8,6 +8,6 @@ st.title('GPT 동작 원리 개론')
 
 
 # 슬라이드를 임베드합니다.
-st.markdown(f'<iframe src="{slide_url}" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>', unsafe_allow_html=True)
+st.markdown(f'<iframe src="{slide_url}" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>', unsafe_allow_html=True)
 
 
