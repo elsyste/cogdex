@@ -5,7 +5,7 @@ slide_url = "https://docs.google.com/presentation/d/e/2PACX-1vR0kPLGtR_nxqoB1srj
 google_slide_direct_link = "https://docs.google.com/presentation/d/1xzdkFx6__bZ-acvcjaeGY5GbCzBs0dqFvGIC8QTDRRM/edit?usp=sharing"  
 
 # Streamlit 앱에 제목 추가
-st.title('An overview of how GPT works')
+st.title('효율적 프롬프트 엔지니어링을 위한 GPT 동작 원리 개론')
 
 
 # 슬라이드를 임베드합니다.
