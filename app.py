@@ -6,7 +6,9 @@ google_slide_direct_link = "https://docs.google.com/presentation/d/1xzdkFx6__bZ-
 
 # Streamlit 앱에 제목 추가
 st.title('GPT 동작 원리 개론')
-
+st.header('GPT가 어떤 방식으로 동작하는지에 대해 개론적 설명을 제공합니다')
+st.subheader("GPT의 트랜스포머 모델(Transformer model)을 살펴봅니다")
+st.write("Write Something")
 
 # 슬라이드를 임베드합니다.
 st.markdown(f'<iframe src="{slide_url}" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>', unsafe_allow_html=True)
