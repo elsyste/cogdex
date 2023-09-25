@@ -6,7 +6,6 @@ google_slide_direct_link = "https://docs.google.com/presentation/d/1xzdkFx6__bZ-
 
 # Streamlit 앱에 제목 추가
 st.header('GPT 동작 원리 개론')
-
 st.subheader("GPT의 트랜스포머 모델(Transformer model)을 살펴봅니다")
 st.write("Write Something")
 st.markdown(f"여기에는 어떤 것이 들어오면 좋을까요?", unsafe_allow_html=True)
