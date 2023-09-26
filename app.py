@@ -5,11 +5,19 @@ slide_url = "https://docs.google.com/presentation/d/e/2PACX-1vR0kPLGtR_nxqoB1srj
 google_slide_direct_link = "https://docs.google.com/presentation/d/1xzdkFx6__bZ-acvcjaeGY5GbCzBs0dqFvGIC8QTDRRM/edit?usp=sharing"  
 
 # CSS를 사용하여 폰트 스타일 변경
+
+st.markdown(
+    """
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@600;900&display=swap" rel="stylesheet">)
+    """,
+    unsafe_allow_html=True,
+)
+
 st.markdown(
     """
     <style>
         body {
-            font-family: 'Nanum Gothic', sans-serif;
+            font-family: 'Noto Sans KR', sans-serif;
         }
     </style>
     """,
