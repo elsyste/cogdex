@@ -9,7 +9,7 @@ st.markdown(
     """
     <style>
         body {
-            font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'Nanum Gothic', sans-serif;
         }
     </style>
     """,
