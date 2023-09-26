@@ -9,12 +9,6 @@ google_slide_direct_link = "https://docs.google.com/presentation/d/1xzdkFx6__bZ-
 st.markdown(
     """
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@600;900&display=swap" rel="stylesheet">)
-    """,
-    unsafe_allow_html=True,
-)
-
-st.markdown(
-    """
     <style>
         body {
             font-family: 'Noto Sans KR', sans-serif;
