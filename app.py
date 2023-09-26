@@ -6,13 +6,13 @@ google_slide_direct_link = "https://docs.google.com/presentation/d/1xzdkFx6__bZ-
 
 # CSS를 사용하여 폰트 스타일 변경
 st.markdown(
-    
+    """
     <style>
         body {
             font-family: 'Noto Sans KR', sans-serif;
         }
     </style>
-    ,
+    """,
     unsafe_allow_html=True,
 )
 
