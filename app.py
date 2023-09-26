@@ -4,19 +4,6 @@ import streamlit as st
 slide_url = "https://docs.google.com/presentation/d/e/2PACX-1vR0kPLGtR_nxqoB1srjsSxuSSyPcMt3T8fWuVJJF4FVNi6xk_7u36xRy_XHaZMPQq9iad_ZooFwvFUa/embed?start=false&loop=false&delayms=3000"
 google_slide_direct_link = "https://docs.google.com/presentation/d/1xzdkFx6__bZ-acvcjaeGY5GbCzBs0dqFvGIC8QTDRRM/edit?usp=sharing"  
 
-# CSS를 사용하여 폰트 스타일 변경
-
-st.markdown(
-    """
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@600;900&display=swap" rel="stylesheet">)
-    <style>
-        body {
-            font-family: 'Noto Sans KR', sans-serif;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
 
 
 # Streamlit 앱에 제목 추가
