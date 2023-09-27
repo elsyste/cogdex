@@ -35,8 +35,8 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.write("Write Something")
-st.markdown(f"여기에는 어떤 것이 들어오면 좋을까요?", unsafe_allow_html=True)
+#st.write("Write Something")
+#st.markdown(f"여기에는 어떤 것이 들어오면 좋을까요?", unsafe_allow_html=True)
 
 # 사용자에게 전체 화면으로 보기를 권장하는 메시지와 링크 제공
 #st.markdown(f"전체 화면으로 슬라이드쇼를 보려면 [여기]( {google_slide_direct_link} )를 클릭하세요.", unsafe_allow_html=True)
