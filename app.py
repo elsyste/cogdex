@@ -28,7 +28,7 @@ st.markdown(
         iframe[width="220"] {
             position: fixed;
             bottom: 100px;
-            right: 250px;
+            right: 300px;
         }
     </style>
     """,
