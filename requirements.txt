@@ -1,2 +1,2 @@
 streamlit.components.v1
-streamlit-analytics
+streamlit_analytics
