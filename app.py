@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit.components.v1 import html
 from streamlit_analytics import analytics
 
-# 여러분의 Google Analytics 측정 ID
+# 여러분의 Google Analytics 측정 ID.
 #measurement_id = "G-H0W30NXPJ6"
 
 # GA4 추적 코드
