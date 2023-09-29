@@ -43,7 +43,7 @@ st.markdown(
 )
 
 
-# streamlit-analytics 중지 (앱의 마지막 부분에 위치해야 함)
+# streamlit-analytics 중지 (앱의 마지막 부분에 위치해야 함.)
 analytics.stop_tracking()
 
 
