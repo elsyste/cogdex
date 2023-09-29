@@ -11,7 +11,7 @@ ga4_tracking_code = f"""
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0W30NXPJ6"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag(){{dataLayer.push(arguments);}}
   gtag('js', new Date());
   gtag('config', 'G-H0W30NXPJ6');
 </script>
