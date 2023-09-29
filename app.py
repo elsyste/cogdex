@@ -18,7 +18,7 @@ ga4_tracking_code = f"""
 """
 
 # 스트림릿 앱에 HTML 코드 삽입
-st.markdown(ga4_tracking_code, unsafe_allow_html=True)
+#st.markdown(ga4_tracking_code, unsafe_allow_html=True)
 
 # 추적 코드 삽입
 st.components.v1.html(ga4_tracking_code, height=0)
