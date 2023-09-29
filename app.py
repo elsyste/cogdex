@@ -19,7 +19,7 @@ st.header("디코더 유형 트랜스포머 아키텍처 개론")
 st.subheader("GPT와 같은 디코더 유형 트랜스포머 모델을 살펴봅니다")
 
 
-# 슬라이드를 임베드합니다.
+# 슬라이드를 임베드합니다..
 st.markdown(f'<iframe src="{slide_url}" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>', unsafe_allow_html=True)
 
 #바이미어커피
