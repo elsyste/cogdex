@@ -1,5 +1,12 @@
 import streamlit as st
 from streamlit.components.v1 import html
+from streamlit_analytics import analytics
+
+# 여러분의 Google Analytics 측정 ID
+measurement_id = "G-H0W30NXPJ6"
+
+# streamlit-analytics 시작
+analytics.start_tracking(measurement_id)
 
 # 공유된 구글 슬라이드의 링크
 slide_url = "https://docs.google.com/presentation/d/e/2PACX-1vR0kPLGtR_nxqoB1srjsSxuSSyPcMt3T8fWuVJJF4FVNi6xk_7u36xRy_XHaZMPQq9iad_ZooFwvFUa/embed?start=false&loop=false&delayms=3000"
@@ -34,6 +41,11 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
+
+# streamlit-analytics 중지 (앱의 마지막 부분에 위치해야 함)
+analytics.stop_tracking()
+
 
 #st.write("Write Something")
 #st.markdown(f"여기에는 어떤 것이 들어오면 좋을까요?", unsafe_allow_html=True)
