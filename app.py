@@ -7,14 +7,18 @@ from streamlit.components.v1 import html
 
 # GA4 추적 코드
 ga4_tracking_code = f"""
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0W30NXPJ6"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
+  function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-H0W30NXPJ6');
 </script>
 """
+
+# 스트림릿 앱에 HTML 코드 삽입
+st.markdown(ga4_tracking_code, unsafe_allow_html=True)
 
 # 추적 코드 삽입
 st.components.v1.html(ga4_tracking_code, height=0)
