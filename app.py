@@ -95,7 +95,7 @@ button = """
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="rdjhyoonc" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 """
 
-# html(button, height=70, width=220)
+html(button, height=70, width=220)
 
 st.markdown(button, unsafe_allow_html=True)
 # st.markdown(
