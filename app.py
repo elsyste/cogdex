@@ -38,28 +38,47 @@ st.header("디코더 유형 트랜스포머 아키텍처 개론")
 st.subheader("GPT와 같은 디코더 유형 트랜스포머 모델을 살펴봅니다")
 
 
-# 슬라이드를 임베드합니다..
-st.markdown(f'<iframe src="{slide_url}" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>', unsafe_allow_html=True)
+# 슬라이드 임베드(상대 위치 사용)
+st.markdown(
+    """
+    <div style="position: relative; width: 960px; height: 639px;"> <!-- 배너의 높이(70px)를 추가한 높이로 설정 -->
+        <iframe src="{slide_url}" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <iframe width="220" style="position: absolute; bottom: 0; right: 10px;">
+            <!-- 배너 내용 -->
+        </iframe>
+    </div>
+    """.format(slide_url=slide_url),
+    unsafe_allow_html=True,
+)
 
-#바이미어커피
+# 슬라이드를 임베드합니다..
+# st.markdown(f'<iframe src="{slide_url}" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>', unsafe_allow_html=True)
+
+#바이미어커피 예전
+# button = """
+# <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="rdjhyoonc" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+# """
+
+#바이미어커피 수정
 button = """
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="rdjhyoonc" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 """
 
 html(button, height=70, width=220)
 
-st.markdown(
-    """
-    <style>
-        iframe[width="220"] {
-            position: fixed;
-            bottom: 100px;
-            right: 350px;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+st.markdown(button, unsafe_allow_html=True)
+# st.markdown(
+#     """
+#     <style>
+#         iframe[width="220"] {
+#             position: fixed;
+#             bottom: 100px;
+#             right: 350px;
+#         }
+#     </style>
+#     """,
+#     unsafe_allow_html=True,
+# )
 
 
 # streamlit-analytics 중지 (앱의 마지막 부분에 위치해야 함.)
