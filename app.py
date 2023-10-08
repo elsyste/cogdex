@@ -92,7 +92,8 @@ html(button, height=70, width=220)
 st.markdown(button, unsafe_allow_html=True)
 
 # update history
-st.write("**2023.10.07. 테스트 버전 업로드**")
+st.write("**2023.10.07. 테스트 버전 수정**")
+st.write("**2023.10.06. 테스트 버전 업로드**")
 
 # st.markdown(
 #     """
