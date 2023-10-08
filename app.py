@@ -1,31 +1,6 @@
 import streamlit as st
 from streamlit.components.v1 import html
-#from streamlit_analytics import analytics
 
-# 여러분의 Google Analytics 측정 ID.
-#measurement_id = "G-H0W30NXPJ6"
-
-# GA4 추적 코드
-# ga4_tracking_code = f"""
-# <!-- Google tag (gtag.js) -->
-# <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0W30NXPJ6"></script>
-# <script>
-#   window.dataLayer = window.dataLayer || [];
-#   function gtag(){{dataLayer.push(arguments);}}
-#   gtag('js', new Date());
-#   gtag('config', 'G-H0W30NXPJ6');
-# </script>
-# """
-
-# 스트림릿 앱에 HTML 코드 삽입
-#st.markdown(ga4_tracking_code, unsafe_allow_html=True)
-
-# 추적 코드 삽입
-# st.components.v1.html(ga4_tracking_code, height=0)
-
-
-# streamlit-analytics 시작
-#analytics.start_tracking('G-H0W30NXPJ6')
 
 # 공유된 구글 슬라이드의 링크
 slide_url = "https://docs.google.com/presentation/d/e/2PACX-1vR0kPLGtR_nxqoB1srjsSxuSSyPcMt3T8fWuVJJF4FVNi6xk_7u36xRy_XHaZMPQq9iad_ZooFwvFUa/embed?start=false&loop=false&delayms=3000"
@@ -35,21 +10,35 @@ google_slide_direct_link = "https://docs.google.com/presentation/d/1xzdkFx6__bZ-
 
 # Streamlit 앱에 제목 추가
 st.header("디코더 유형 트랜스포머 아키텍처 개론")
-st.subheader("GPT와 같은 디코더 유형 트랜스포머 모델을 살펴봅니다")
+st.subheader("GPT와 같은 디코더 유형 트랜스포머 아키텍처에 대한 개념 위주의 튜토리얼")
 
+
+# # 부모 컨테이너의 최소 높이 설정
+# st.markdown(
+#     """
+#     <div style="position: relative; width: 960px; min-height: 639px;"> <!-- 배너의 높이(70px)를 추가한 높이로 설정 -->
+#         <iframe src="{slide_url}" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+#         <iframe width="220" style="position: absolute; bottom: 0; right: 10px;">
+#             <!-- 배너 내용 -->
+#         </iframe>
+#     </div>
+#     """.format(slide_url=slide_url),
+#     unsafe_allow_html=True,
+# )
 
 # 부모 컨테이너의 최소 높이 설정
 st.markdown(
     """
     <div style="position: relative; width: 960px; min-height: 639px;"> <!-- 배너의 높이(70px)를 추가한 높이로 설정 -->
         <iframe src="{slide_url}" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-        <iframe width="220" style="position: absolute; bottom: 0; right: 10px;">
+        <iframe width="220" style="position: absolute; bottom: 30px; right: 10px;">
             <!-- 배너 내용 -->
         </iframe>
     </div>
     """.format(slide_url=slide_url),
     unsafe_allow_html=True,
 )
+
 
 # 미디어 쿼리를 사용하여 화면 높이에 따라 스타일 적용
 # st.markdown(
@@ -98,6 +87,7 @@ button = """
 html(button, height=70, width=220)
 
 st.markdown(button, unsafe_allow_html=True)
+
 # st.markdown(
 #     """
 #     <style>
@@ -110,10 +100,6 @@ st.markdown(button, unsafe_allow_html=True)
 #     """,
 #     unsafe_allow_html=True,
 # )
-
-
-# streamlit-analytics 중지 (앱의 마지막 부분에 위치해야 함.)
-#analytics.stop_tracking('G-H0W30NXPJ6')
 
 
 #st.write("Write Something")
