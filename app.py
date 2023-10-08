@@ -16,7 +16,7 @@ st.write("GPT와 같은 디코더 유형 트랜스포머 아키텍처에 대한 
 # 부모 컨테이너의 최소 높이 설정
 st.markdown(
     """
-    <div style="position: relative; width: 960px; min-height: 639px;"> <!-- 배너의 높이(70px)를 추가한 높이로 설정 -->
+    <div style="position: relative; width: 960px; min-height: 599px;"> <!-- 배너의 높이(30px)를 추가한 높이로 설정 -->
         <iframe src="{slide_url}" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         <iframe width="220" style="position: absolute; bottom: 0; right: 10px;">
             <!-- 배너 내용 -->
