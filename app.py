@@ -52,20 +52,20 @@ st.markdown(
 )
 
 # 미디어 쿼리를 사용하여 화면 높이에 따라 스타일 적용
-st.markdown(
-    """
-    <style>
-        @media (max-height: 700px) {
-            iframe[width="220"] {
-                position: static; /* 배너의 위치를 기본 값으로 설정 */
-                display: block;
-                margin: 10px auto; /* 중앙 정렬 */
-            }
-        }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+# st.markdown(
+#     """
+#     <style>
+#         @media (max-height: 700px) {
+#             iframe[width="220"] {
+#                 position: static; /* 배너의 위치를 기본 값으로 설정 */
+#                 display: block;
+#                 margin: 10px auto; /* 중앙 정렬 */
+#             }
+#         }
+#     </style>
+#     """,
+#     unsafe_allow_html=True,
+# )
 
 
 
