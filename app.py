@@ -11,7 +11,9 @@ google_slide_direct_link = "https://docs.google.com/presentation/d/1xzdkFx6__bZ-
 # Streamlit 앱에 제목 추가
 st.header("디코더 유형 트랜스포머 아키텍처 개론")
 st.subheader("GPT의 동작 원리가 궁금하신가요?")
-st.write("**GPT와 같은 디코더 유형 트랜스포머 아키텍처에 대한 개념 위주의 튜토리얼을 제공합니다. 전체 화면으로 보기: Ctrl+Shift+F**")
+st.write('''
+         **GPT와 같은 디코더 유형 트랜스포머 아키텍처에 대한 
+         개념 위주의 튜토리얼을 제공합니다. 전체 화면으로 보기: Ctrl+Shift+F**''')
 
 
 # 부모 컨테이너의 최소 높이 설정
