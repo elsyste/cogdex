@@ -31,7 +31,7 @@ st.markdown(
     """
     <div style="position: relative; width: 960px; min-height: 579px;"> <!-- 배너의 높이(10px)를 추가한 높이로 설정 -->
         <iframe src="{slide_url}" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-        <iframe width="220" style="position: absolute; bottom: 0; right: 0;">
+        <iframe width="220" style="position: absolute; bottom: 0; left: 0;">
             <!-- 배너 내용 -->
         </iframe>
     </div>
