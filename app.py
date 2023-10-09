@@ -11,8 +11,9 @@ google_slide_direct_link = "https://docs.google.com/presentation/d/1xzdkFx6__bZ-
 # Streamlit 앱에 제목 추가
 st.header("🤖디코더 유형 트랜스포머 아키텍처 개론🤖")
 st.subheader("GPT의 동작 원리가 궁금하신가요?🤔")
-st.write("**GPT는 디코더 유형 트랜스포머 아키텍처를 기반으로 만들어 졌습니다**") 
-st.write("**GPT의 동작 원리를 이해하기 쉽도록😀 디코더 유형 트랜스포머 아키텍처에 대해    개념 위주의 튜토리얼(Conceptual Tutorial)을 제공합니다📋.전체 화면으로 보기: Ctrl+Shift+F**")
+#st.write("**GPT는 디코더 유형 트랜스포머 아키텍처를 기반으로 만들어 졌습니다**") 
+st.write("**GPT의 동작 원리를 이해하기 쉽도록😀 '디코더 유형 트랜스포머 아키텍처'에 대해 개념 위주의 튜토리얼(Conceptual Tutorial)을 제공합니다📋.**")
+st.write("모바일📱, PC💻 모두 전체화면 보기를 추천드립니다(슬라이드 왼쪽 하단 점 3개 메뉴 이용)")
 #st.write("**전체 화면으로 보기: Ctrl+Shift+F**")
 
 
